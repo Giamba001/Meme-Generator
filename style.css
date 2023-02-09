@@ -1,0 +1,51 @@
+body html {
+    color:white;
+    margin:0;
+    padding:0;
+    min-height:100%;
+}
+
+body {
+    background-color: slategrey;
+}
+
+.container {
+    background-color: #b1f1b4;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size:50pt;
+    color:whitesmoke;
+    text-shadow: -0.5px -0.5px 0 #17a2b8, -0.5px -0.5px 0 #17a2b8;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color:#17a2b8;
+    font-size:15pt;
+}
+
+#addMemeForm {
+    font-family: 'Courier New', Courier, monospace;
+    color:#17a2b8;
+    font-weight:bolder;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.remove {
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+    opacity: 0.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.remove:hover {
+    color: black;
+    opacity: 1;
+}
